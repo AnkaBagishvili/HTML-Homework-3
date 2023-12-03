@@ -2,22 +2,23 @@
     max-width: 1440px;
     width: 100%;
     margin: auto;
-    padding-top: 136px;
+    padding-top: 129px;
 }
 
 /* Header */
 header {
+    background: #372D23;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 32px 80px;
-    background: #372D23;
     position: fixed;
     max-width: inherit;
     width: inherit;
     left: 50%;
     transform: translateX(-50%);
     top: 0;
+    z-index: 1;
 }
 
 .header_logo1 {
@@ -50,9 +51,6 @@ header {
 /* Section1 */
 .section1 {
     position: relative;
-}
-
-.section1_img {
     height: 640px;
 }
 
@@ -87,9 +85,12 @@ header {
     padding: 12px 38px;
     border: 3px solid #FCC21B;
     box-shadow: 0px 4px 4px 0px #372D23;
+    background-color: transparent;
 }
 
-/* damrcha hoveri da gilakis transparrenti  */
+button:hover {
+    box-shadow: 0 0 5px rgb(255, 81, 0), 0 0 10px rgb(255, 81, 0), 0 0 15px rgb(255, 81, 0), 0 0 20px rgb(255, 81, 0);
+}
 
 /* Section2 */
 .section2 {
@@ -153,7 +154,7 @@ article {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    margin:40px 0;
+    margin: 40px 0;
 }
 
 .article_button {
@@ -173,3 +174,47 @@ article {
 }
 
 /* Footer */
+footer {
+    padding: 32px 300px;
+    background: #372D23;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_title {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.footer_li {
+    color: #B89278;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.active {
+    margin: 8px 0px;
+}
+
+.insta,
+.linked,
+.fb,
+.tik {
+    font-size: 24px;
+    color: #FCC21B;
+}
+
+.fa-instagram {
+    margin-right: 16px;
+}
+
+.fa-facebook-f {
+    margin-inline: 16px;
+}

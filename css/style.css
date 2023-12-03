@@ -1,0 +1,50 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    /* padding-top: 139px; amas minus 10px tu chamoiwia  */
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 80px;
+    background: #372D23;
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+
+.header_logo1 {
+    width: 72px;
+    height: 72px;
+
+}
+
+.header_ul {
+    display: flex;
+    column-gap: 48px;
+}
+
+.header_li {
+    color: #B89278;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 133.333% */
+}
+
+.active {
+    color: #ED6C30;
+}
+
+.bag {
+    font-size: 40px;
+    color: #FCC21B;
+}

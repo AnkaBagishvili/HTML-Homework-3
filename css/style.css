@@ -3,6 +3,7 @@
     width: 100%;
     margin: auto;
     /* padding-top: 139px; amas minus 10px tu chamoiwia  */
+    padding-top: 136px;
 }
 
 /* Header */
@@ -23,7 +24,6 @@ header {
 .header_logo1 {
     width: 72px;
     height: 72px;
-
 }
 
 .header_ul {
@@ -37,7 +37,6 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 133.333% */
 }
 
 .active {
@@ -48,3 +47,89 @@ header {
     font-size: 40px;
     color: #FCC21B;
 }
+
+/* Section1 */
+.section1 {
+    position: relative;
+}
+
+.section1_img {
+    height: 640px;
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+}
+
+.text_button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section1_title {
+    color: #FFF;
+    text-shadow: 0px 6px 4px #372D23;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 32px;
+}
+
+.section1_button {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 12px 38px;
+    border: 3px solid #FCC21B;
+    box-shadow: 0px 4px 4px 0px #372D23;
+}
+
+/* damrcha hoveri da gilakis transparrenti  */
+
+/* Section2 */
+.section2 {
+    padding: 80px;
+    display: flex;
+    column-gap: 40px;
+}
+
+.section2_figure {
+    position: relative;
+    height: 320px;
+}
+
+.section2_img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.section2_title {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    width: 100%;
+    height: 88px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(55, 45, 35, 0.80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.section2_icon {
+    width: 32px;
+    height: 32px;
+}
+
+/*  */
